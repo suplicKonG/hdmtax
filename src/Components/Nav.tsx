@@ -1,5 +1,5 @@
 import './index.css'
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 
 type NavProps = {
@@ -9,6 +9,18 @@ type NavProps = {
 
 const Nav: React.FC<NavProps> = ({ isFooter = false, className = "" }) => {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
 
   return (
     <nav className={`nav ${className}`}>
@@ -21,15 +33,16 @@ const Nav: React.FC<NavProps> = ({ isFooter = false, className = "" }) => {
       )}
 
       <ul className={isFooter ? "menu footer-menu" : isOpen ? "menu open" : "menu"}>
-        <li><a href="#home">DOMŮ</a></li>
-        <li><a href="#about">O MNĚ</a></li>
-        <li><a href="#sluzby">SLUŽBY</a></li>
-        <li><a href="#reference">REFERENCE</a></li>
-        <li><a href="#kontakt">KONTAKT</a></li>
+        <li><a href="#home" onClick={() => setIsOpen(false)}>DOMŮ</a></li>
+        <li><a href="#about" onClick={() => setIsOpen(false)}>O MNĚ</a></li>
+        <li><a href="#sluzby" onClick={() => setIsOpen(false)}>SLUŽBY</a></li>
+        <li><a href="#reference" onClick={() => setIsOpen(false)}>REFERENCE</a></li>
+        <li><a href="#kontakt" onClick={() => setIsOpen(false)}>KONTAKT</a></li>
       </ul>
     </nav>
   );
 };
+
 
 
 

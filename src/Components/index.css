@@ -1757,6 +1757,10 @@ a {
     height: 190px;
   }
 
+  .reference{
+    width: 93%;
+  }
+
   .text{
     width: 88%;
     position: absolute;
@@ -1782,7 +1786,7 @@ a {
   }
 
   .zkusenosti-box{
-    width: 88%;
+    width: 90%;
   }
 
   .logo-wrapper{
@@ -1832,6 +1836,14 @@ a {
   .icon{
     width: 88%;
   }
+
+  .kontakt-container{
+    width: 66%;
+  }
+
+  .kontakt-form-wrapper{
+    width: 80%;
+  }
 }
 
 @media (max-width: 375px){
@@ -1840,7 +1852,7 @@ a {
   }
 
   .zkusenosti-box{
-    width: 85%;
+    width: 92%;
   }
 
   .konzultace img{
@@ -1875,6 +1887,18 @@ a {
 
   .copyright{
     font-size: 13px;
+  }
+
+  .reference{
+    width: 90%;
+  }
+
+  .kontakt-container{
+    width: 65%;
+  }
+
+  .kontakt-form-wrapper{
+    width: 75%;
   }
 }
 
