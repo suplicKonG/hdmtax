@@ -1,6 +1,6 @@
-*{
-  /* border: 1px dashed red; */
-} 
+/* *{
+  outline: 1px dashed limegreen;
+}  */
 
 #root{
   width: 100%;
@@ -175,7 +175,7 @@ li:last-child {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 1.8em;
 }
 
 .buttons .sluzby{
@@ -1369,10 +1369,10 @@ a {
   }
 
   .fotka img{
-    width: 442px;
-    height: 273px;
+    width: 100%;
+    height: 100%;
     margin-top: 40px;
-    margin-right: 250px;
+    margin-left: 55px;
   }
 
   .quote {
@@ -1410,7 +1410,7 @@ a {
   }
 
   .o-mne{
-    width: 100%;
+    width: 86%;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 50px;
@@ -1440,6 +1440,7 @@ a {
     align-items: flex-start;
     margin-left: 30px;
     left: 0px;
+    width: 86%;
   }
 
   .table-box h2{
@@ -1600,8 +1601,6 @@ a {
   .cdp-ikona,
   .ico-ikona {
     position: static !important;
-    margin-bottom: 10px;
-    margin: 0 auto;
   }
 
   .nadpisy {
@@ -1908,5 +1907,14 @@ a {
   .online-kontakt{
     width: 50%;
   }
+
+  .kontakt-container{
+    width: 64%;
+  }
+
+  .kontakt-form-wrapper{
+    width: 60%;
+  }
+  
 }
 
