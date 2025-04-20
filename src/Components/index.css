@@ -20,6 +20,7 @@ body{
   background-image: url('./assets/bg.png');
   background-size: contain;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 body.no-scroll {
