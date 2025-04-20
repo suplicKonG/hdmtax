@@ -92,7 +92,7 @@ function Thirdstage(){
         <div className="logo-container">
         <p>Za svou kariéru jsem pomohl<br /> 
         mnoha skvělým firmám.</p>
-
+        
 <div className="logo-wrapper">
     <div className="logo-row left">
       <div className="logo-track">

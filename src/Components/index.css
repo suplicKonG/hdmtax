@@ -8,6 +8,7 @@
 
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body{
@@ -685,7 +686,33 @@ li:last-child {
 .logo-wrapper{
   overflow: hidden;
   white-space: nowrap;
-  width: 1200px;
+  width: 90%;
+}
+
+.logo-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-wrapper::before,
+.logo-wrapper::after {
+content: "";
+position: absolute;
+top: 0;
+width: 100px;
+height: 100%;
+z-index: 10;
+pointer-events: none;
+}
+
+.logo-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, white, transparent);
+}
+
+.logo-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, white, transparent);
 }
 
 .logo-row {
@@ -1117,6 +1144,7 @@ a {
 
   .table-line{
     width: 45%;
+    transform: translateX(506px);
   }
 
   .tables-container{
@@ -1125,10 +1153,21 @@ a {
     align-items: center;
     position: relative;
     left: 170px;
+    width: 80%;
   }
 
   .table-box{
-    width: 450px;
+    width: 50%;
+    position: relative;
+    left: 130px;
+  }
+
+  .table-box h2{
+    font-size: 20px;
+  }
+
+  .table-box p{
+    font-size: 14px;
   }
 
   .table-box br{
@@ -1393,7 +1432,6 @@ a {
     display: none;
   }
   
-  
   .quote-text {
     position: absolute;
     top: 50%;
@@ -1520,7 +1558,7 @@ a {
   }
 
   .reference{
-    width: 100%;
+    width: 93%;
     margin-left: 30px;
   }
 
@@ -1530,7 +1568,7 @@ a {
   }
 
   .zkusenosti-box{
-    width: 93%;
+    width: 99%;
   }
 
   .logo-container{
@@ -1632,7 +1670,7 @@ a {
   }
 
   .kontakt-form-wrapper{
-    width: 93%;
+    width: 90%;
     margin-left: 30px;
   }
   
@@ -1687,6 +1725,32 @@ a {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  .logo-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .logo-wrapper::before,
+  .logo-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+  .logo-wrapper::before {
+    left: 0;
+    background: linear-gradient(to right, white, transparent);
+  }
+  
+  .logo-wrapper::after {
+    right: 0;
+    background: linear-gradient(to left, white, transparent);
+  }
 }
 
 @media (max-width: 425px){
@@ -1723,7 +1787,11 @@ a {
   }
 
   .table-box{
-    width: 88%;
+    position: static;
+  }
+
+  .table-box{
+    width: 100%;
   }
 
   .sluzby{
@@ -1764,7 +1832,6 @@ a {
   .text{
     width: 88%;
     position: absolute;
-    top: 40%;
   }
 
   .text .button{
@@ -1844,6 +1911,41 @@ a {
   .kontakt-form-wrapper{
     width: 80%;
   }
+
+  .certifikace{
+    gap: 15px;
+  }
+
+  .komora-p{
+    font-size: 14px;
+  }
+
+  .logo-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .logo-wrapper::before,
+  .logo-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+  .logo-wrapper::before {
+    left: 0;
+    background: linear-gradient(to right, white, transparent);
+  }
+  
+  .logo-wrapper::after {
+    right: 0;
+    background: linear-gradient(to left, white, transparent);
+  }
+ 
 }
 
 @media (max-width: 375px){
@@ -1900,6 +2002,32 @@ a {
   .kontakt-form-wrapper{
     width: 75%;
   }
+
+  .logo-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .logo-wrapper::before,
+  .logo-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+  .logo-wrapper::before {
+    left: 0;
+    background: linear-gradient(to right, white, transparent);
+  }
+  
+  .logo-wrapper::after {
+    right: 0;
+    background: linear-gradient(to left, white, transparent);
+  }
 }
 
 @media (max-width: 320px){
@@ -1938,6 +2066,32 @@ a {
 
   .kontakt-form-wrapper{
     width: 60%;
+  }
+
+  .logo-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .logo-wrapper::before,
+  .logo-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+  .logo-wrapper::before {
+    left: 0;
+    background: linear-gradient(to right, white, transparent);
+  }
+  
+  .logo-wrapper::after {
+    right: 0;
+    background: linear-gradient(to left, white, transparent);
   }
   
 }
