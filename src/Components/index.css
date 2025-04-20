@@ -8,6 +8,7 @@
 
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body{
@@ -19,6 +20,11 @@ body{
   background-image: url('./assets/bg.png');
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+body.no-scroll {
+  overflow: hidden !important;
+  height: 100vh;
 }
 
 .wrapper{
@@ -1352,10 +1358,6 @@ a {
 
 @media (max-width: 768px){
 
-  body{
-    overflow-x: hidden;
-  }
-
   #home{
     width: 93%;
   }
@@ -1758,10 +1760,6 @@ a {
 
 @media (max-width: 425px){
 
-  body{
-    overflow-x: hidden;
-  }
-
   .container{
     position: sticky;
   }
@@ -1961,10 +1959,6 @@ a {
 
 @media (max-width: 375px){
 
-  body{
-    overflow-x: hidden;
-  }
-
   #home{
     width: 93%;
   }
@@ -2047,10 +2041,6 @@ a {
 }
 
 @media (max-width: 320px){
-
-  body{
-    overflow-x: hidden;
-  }
 
   .fotka{
     margin-left: 25px;
