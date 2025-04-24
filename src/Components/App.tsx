@@ -1,6 +1,6 @@
 import './index.css'
 import Header from './Header'
-import Uvod from './Uvod'
+import Introduction from './Introduction'
 import AboutMe from './AboutMe'
 import Services from './Services'
 import Reference from './Reference'
@@ -17,7 +17,7 @@ function App() {
       <Header />
 
       <div className="web">
-          <Uvod />
+          <Introduction />
           <AboutMe />
       </div>
       

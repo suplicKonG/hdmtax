@@ -2,17 +2,17 @@ import grafika from './assets/grafika_hero.png'
 import rectangle from './assets/Rectangle.svg'
 
 
-function Uvod(){
+function Introduction(){
 
    
     return(
         <>
-        <div className="uvod-container">
-            <div className="uvod">
+        <div className="introduction-container">
+            <div className="introduction">
             <p>Jistota v číslech, klid v podnikání.</p>
         </div>
 
-        <div className="popis">
+        <div className="desc">
             <h2>Daně, účetnictví, poradenství.<br /> Přesně. Spolehlivě. Bez stresu.</h2>
 
             <img src={rectangle} />
@@ -21,10 +21,10 @@ function Uvod(){
         </div>
 
         <div className="buttons">
-            <a href="#kontakt-form" className="button">Kontaktujte mě</a>
-            <a href="#sluzby" className="sluzby">Zjistit víc</a> 
+            <a href="#contact" className="button">Kontaktujte mě</a>
+            <a href="#services" className="services">Zjistit víc</a> 
         </div>
-        <div className="fotka">
+        <div className="desc-photo">
             <img src={grafika} />
         </div>
         </div>
@@ -32,4 +32,4 @@ function Uvod(){
     );
 }
 
-export default Uvod
+export default Introduction

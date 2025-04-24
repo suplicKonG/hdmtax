@@ -8,7 +8,7 @@
 
 html{
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  
 }
 
 body{
@@ -153,11 +153,11 @@ li:last-child {
   margin-right: 0;
 }
 
-.uvod-container{
+.introduction-container{
   margin-top: 90px;
 }
 
-.uvod{
+.introduction{
   display: flex;
   flex-direction: column;
   color: #969696;
@@ -168,7 +168,7 @@ li:last-child {
   
 }
 
-.popis h2{
+.desc h2{
   color: rgb(15, 58, 48);
   margin: 0;
   font-weight: 300;
@@ -176,7 +176,7 @@ li:last-child {
   line-height: 50px;
 }
 
-.popis p{
+.desc p{
   color: rgb(15, 58, 48);
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -221,15 +221,12 @@ li:last-child {
   transition: ease 0.5s;
 }
 
-
-/* ======= Fotka ======= */
-
-.fotka{
+.desc-photo{
   display: flex;
   justify-content: flex-end;
 }
 
-.fotka img{
+.desc-photo img{
   width: 689px;
   height: 614px;
   border-radius: inherit;
@@ -1111,23 +1108,23 @@ a {
     height: 38px;
   }
 
-  .uvod-container{
+  .introduction-container{
     margin-left: 160px;
   }
 
-  .uvod{
+  .introduction{
     display: none;
   }
 
-  .popis h2{
+  .desc h2{
     font-size: 28px;
   }
 
-  .popis p{
+  .desc p{
     font-size: 18px;
   }
 
-  .fotka img{
+  .desc-photo img{
     width: 535px;
     height: 458px;
     margin-top: -80px;
@@ -1386,20 +1383,20 @@ a {
     margin: 1rem 0;
   }
 
-  .uvod-container{
+  .introduction-container{
     margin-left: 30px;
   }
 
-  .popis br{
+  .desc br{
     display: none;
   }
 
-  .popis h2{
+  .desc h2{
     font-size: 21px;
     width: 100%;
   }
 
-  .popis p{
+  .desc p{
     line-height: 1.8em;
     font-size: 14px;
   }
@@ -1413,7 +1410,7 @@ a {
     font-size: 16px;
   }
 
-  .fotka img{
+  .desc-photo img{
     width: 100%;
     height: 100%;
     margin-top: 40px;
@@ -1769,11 +1766,11 @@ a {
     width: 93%;
   }
 
-  .popis h2{
+  .desc h2{
     line-height: 1.2em;
   }
 
-  .fotka{
+  .desc-photo{
     display: flex;
     justify-content: flex-start;
     margin-left: 70px;
@@ -2043,7 +2040,7 @@ a {
 
 @media (max-width: 320px){
 
-  .fotka{
+  .desc-photo{
     margin-left: 25px;
   }
 
