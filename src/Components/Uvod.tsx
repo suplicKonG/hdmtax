@@ -17,7 +17,7 @@ function Uvod(){
 
             <img src={rectangle} />
 
-            <p>Daně, které jsou v pořádku. A klid, který si zasloužíte. <br /> Postarám se o vaše daňové povinnosti, abyste <br />se mohli soustředit na svůj byznys</p>
+            <p>Daně, které jsou v pořádku. A klid, který si zasloužíte. <br /> Postarám se o vaše daňové povinnosti, abyste <br />se mohli soustředit na svůj byznys.</p>
         </div>
 
         <div className="buttons">

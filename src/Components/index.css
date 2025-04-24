@@ -42,7 +42,7 @@ h1, h2, h3{
   font-family: "field-gothic-wide", sans-serif;
 }
 
-.web{
+.web {
   width: 100%;
   max-width: 1200px;
   opacity: 0;
@@ -52,12 +52,12 @@ h1, h2, h3{
 
 @keyframes slideUp {
   from {
-      opacity: 0;
-      transform: translateY(50px);
+    opacity: 0;
+    transform: translateY(50px);
   }
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -184,7 +184,7 @@ li:last-child {
   line-height: 1.8em;
 }
 
-.buttons .sluzby{
+.buttons .services{
   color: #969696;
   text-decoration: none;
   margin-left: 45px;
@@ -192,7 +192,7 @@ li:last-child {
   font-size: 20px;
 }
 
-.sluzby:hover{
+.services:hover{
   color: rgb(15, 58, 48);
   text-decoration: none;
   transition: ease 0.5s;
@@ -270,7 +270,7 @@ li:last-child {
     margin-bottom: 60px;
   }
 
-  .table-line-kontakt{
+  .table-line-contact{
     transform: translateX(150px);
     width: 65%;
     color: #969696;
@@ -311,11 +311,11 @@ li:last-child {
     background-color: #D9D9D9;
   }
 
-  .o-mne{
+  .about-me{
     display: flex;
   }
 
-  .o-mne-veta{
+  .about-me-sentence{
     font-family: "Poppins", sans-serif;
     color: #969696;
     font-size: 14px;
@@ -324,18 +324,18 @@ li:last-child {
     line-height: 1.3em;
   }
 
- .o-mne-p{
+ .about-me-p{
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 18px;
   margin-bottom: 40px;
  }
 
- .o-mne-foto{
+ .about-me-photo{
   width: 45%;
  }
 
-  .veta{
+  .sentence{
     font-size: 38px;
     color: rgb(15, 58, 48);
     font-weight: 300;
@@ -344,7 +344,7 @@ li:last-child {
     font-family: "field-gothic-wide", sans-serif;
   }
 
-  .o-mne-text{
+  .about-me-text{
    margin-top: 30px;
    width: 540px;
    color: rgba(110, 110, 110, 1);
@@ -352,26 +352,26 @@ li:last-child {
    font-size: 20px;
   }
 
-  .podpis{
+  .sign{
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-size: 20px;
   }
 
-  .sluzby-background{
+  .services-background{
     background: radial-gradient(82% 67% at 77.5% -32.2%,rgba(58,187,106,.3) 0%,rgba(255,255,255,.5) 100%);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  .sluzby{
+  .services{
     width: 1000px;
     margin: 0 auto;
     padding: 70px 40px 80px;
   }
 
-  .p-sluzby{
+  .p-services{
     color: #6e6e6e;
     font-family: "Poppins", sans-serif;
     font-size: 14px;
@@ -380,14 +380,14 @@ li:last-child {
     line-height: 1.3em;
   }
 
-   .sluzby h2{
+   .services h2{
     color: #0F3A30;
     font-family: "field-gothic-wide", sans-serif;
     font-size: 38px;
     font-weight: 300;
   } 
 
-  .p-popis{
+  .p-desc{
     color: #6e6e6e;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
@@ -395,7 +395,7 @@ li:last-child {
     font-size: 20px;
   }
 
-  .akordeon{
+  .accordion{
     width: 1000px;
     margin: 0 auto;
   }
@@ -453,7 +453,7 @@ li:last-child {
   font-weight: 300;
   }
 
-  .ul-popis{
+  .ul-desc{
     width: 100%;
     margin-left: 45px;
     font-size: 16px;
@@ -473,7 +473,7 @@ li:last-child {
   font-family: "Poppins", sans-serif;
   }
 
-  .konzultace-container{
+  .consultation-container{
     position: relative;
     display: flex;
     justify-content: center;
@@ -484,14 +484,14 @@ li:last-child {
     margin-bottom: 150px;
 }
 
-.konzultace {
+.consultation {
     position: relative;
     bottom: 120px;
     left: 6%;
     margin-top: 150px;
 }
 
-.konzultace img {
+.consultation img {
     width: 1120px;
     height: 455px;
     border-radius: 250px;
@@ -554,7 +554,7 @@ li:last-child {
     letter-spacing: -1px;
 }
 
-.zkusenosti {
+.experience {
     text-align: left;
     margin: 20px 0;
     color: #545454;
@@ -562,7 +562,7 @@ li:last-child {
     font-weight: 300;
 }
 
-.zkusenosti-container{
+.experience-container{
     display: flex;
     gap: 20px;
     align-items: center;
@@ -570,7 +570,7 @@ li:last-child {
     margin-top: 50px;
 }
 
-.zkusenosti h2 {
+.experience h2 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -596,7 +596,7 @@ li:last-child {
     font-size: 16px;
 }
 
-.zkusenosti-box {
+.experience-box {
     border: 1px solid #ddd;
     display: flex;
     flex-direction: column;
@@ -608,7 +608,7 @@ li:last-child {
     background-color: white;
 }
 
-.certifikace{
+.certification{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -618,7 +618,7 @@ li:last-child {
   gap: 41px;
 }
 
-.roky{
+.years{
     margin: 0;
     color: #0F3A30;
     font-family: "field-gothic-wide", sans-serif;
@@ -742,7 +742,7 @@ pointer-events: none;
     width: auto;
 }
 
- .kontakt{
+ .contact{
   width: 84%;
   margin: 0 auto;
   position: relative;
@@ -751,7 +751,7 @@ pointer-events: none;
   justify-content: space-between;
  }
 
- .kontakt-p{
+ .contact-p{
   font-family: "Poppins", sans-serif;
   color: #969696;
   letter-spacing: 2px;
@@ -760,7 +760,7 @@ pointer-events: none;
   font-weight: 300;
  }
 
- .kontakt-info h2{
+ .contact-info h2{
   font-family: "field-gothic-wide", sans-serif;
   font-weight: 300;
   color: #0F3A30;
@@ -768,45 +768,45 @@ pointer-events: none;
   line-height: 1.2em;
  }
 
- .fotka-blur{
+ .photo-blur{
   position: absolute;
   top: 0;
   left: 30px;
   z-index: 1;
  }
 
- .fotka-main{
+ .photo-main{
   position: relative;
   z-index: 2;
   left: 30px;
  }
 
- .kontakt-container{
+ .contact-container{
   width: 45%;
   margin-top: 50px;
  }
 
- .kontakt-info {
+ .contact-info {
   position: absolute;
   left: 28%;
   top: 9%;
 }
 
-.kontakt-email,
-.kontakt-telefon {
+.contact-email,
+.contact-telefon {
   position: relative;
   margin: 15px 0;
 }
 
-.email-ikona,
-.tel-ikona {
+.email-icon,
+.tel-icon {
   position: absolute;
   top: 0;
 }
 
-.datovka-ikona,
-.cdp-ikona,
-.ico-ikona{
+.datovka-icon,
+.cdp-icon,
+.ico-icon{
   position: absolute;
   right: 43%;
 }
@@ -842,14 +842,14 @@ pointer-events: none;
   padding-bottom: 20px;
 }
 
-.online-kontakt{
+.online-contact{
   text-align: left;
   font-family: "Poppins", sans-serif;
   margin-top: 180px;
   margin-left: 50px;
 }
 
-.nadpisy{
+.headlines{
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -857,11 +857,11 @@ pointer-events: none;
   letter-spacing: 2px;
 }
 
-.online-kontakt p {
+.online-contact p {
   margin: 5px 0;
 }
 
-.udaje{
+.data{
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
@@ -872,7 +872,7 @@ pointer-events: none;
   color: #0F3A30;
 }
 
-.kontakt-form-wrapper{
+.contact-form-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1063,21 +1063,21 @@ a {
     width: 93%;
   }
 
-  .kontakt-container{
+  .contact-container{
     width: 10%;
   }
 
-  .kontakt-info{
+  .contact-info{
     position: absolute;
     left: 38%;
     top: 12%;
   }
 
-  .online-kontakt{
+  .online-contact{
     margin-left: -100px;
   }
 
-  .datovka-ikona, .cdp-ikona, .ico-ikona{
+  .datovka-icon, .cdp-icon, .ico-icon{
     position: absolute;
     right: 20%;
   }
@@ -1134,7 +1134,7 @@ a {
     transform: translateX(-80px);
   }
 
-  .sluzby{
+  .services{
     padding: 0;
     margin: 0;
   }
@@ -1179,18 +1179,18 @@ a {
     display: none;
   }
 
-  .o-mne{
+  .about-me{
     align-items: center;
     justify-content: center;
     width: 924px;
     margin-bottom: 50px;
   }
   
-  .veta{
+  .sentence{
     font-size: 28px;;
   }
 
-  .o-mne-foto{
+  .about-me-photo{
     width: 353px;
     height: 456px;
     display: flex;
@@ -1200,24 +1200,24 @@ a {
     transform: translateY(630px);
   }
 
-  .sluzby-background{
+  .services-background{
     width: 100%;
   }
   
-  .sluzby{
+  .services{
     width: 91%;
     margin: 0 auto;
   }
 
-  .sluzby h2{
+  .services h2{
     font-size: 28px;
   }
 
-  .p-popis{
+  .p-desc{
     font-size: 18px;
   }
 
-  .akordeon{
+  .accordion{
     position: relative;
     width: 91%;
     right: 10px;
@@ -1228,17 +1228,17 @@ a {
     font-size: 28px;
   }
 
-  .konzultace-container{
+  .consultation-container{
     align-items: flex-start;
     margin-top: 50px;
   }
 
-  .konzultace{
+  .consultation{
     position: relative;
     left: 10px;
   }
 
-  .konzultace img{
+  .consultation img{
     width: 864px;
     height: 281px;
     width: 100%;
@@ -1256,19 +1256,19 @@ a {
     font-size: 18px;
   }
 
-  .zkusenosti h2{
+  .experience h2{
     font-size: 18px;
   }
 
-  .zkusenosti-box{
+  .experience-box{
     width: 100%;
   }
 
-  .certifikace{
+  .certification{
     width: 924px;
   }
 
-  .zkusenosti-container{
+  .experience-container{
     display: grid;
     grid-template-columns: repeat(2, minmax(200px, 1fr));
   }
@@ -1281,32 +1281,32 @@ a {
     width: 89%;
   }
 
-  .fotka-main{
+  .photo-main{
     position: relative;
     width: 29%;
     transform: translateX(-80px);
   }
 
-  .fotka-blur{
+  .photo-blur{
     display: none;
   }
 
-  .kontakt {
+  .contact {
     align-items: flex-start;
   }
 
-  .kontakt-container {
+  .contact-container {
     width: 100%;
     margin-top: 30px;
   }
 
-  .kontakt-info {
+  .contact-info {
     position: static;
     width: 100%;
     margin-bottom: 30px;
   }
 
-  .online-kontakt {
+  .online-contact {
     margin: 0;
     margin-left: 5px; 
     text-align: left; 
@@ -1319,15 +1319,15 @@ a {
     margin-bottom: 20px;
   }
 
-  .datovka-ikona,
-  .cdp-ikona,
-  .ico-ikona {
+  .datovka-icon,
+  .cdp-icon,
+  .ico-icon {
     position: relative;
     right: auto;
     width: 25px;
   }
   
-  .kontakt-form-wrapper{
+  .contact-form-wrapper{
     width: 51%;
     margin-left: 200px;
   }
@@ -1408,7 +1408,7 @@ a {
     font-size: 16px;
   }
 
-  .buttons .sluzby{
+  .buttons .services{
     left: 0;
     font-size: 16px;
   }
@@ -1453,7 +1453,7 @@ a {
     width: 70%;
   }
 
-  .o-mne{
+  .about-me{
     width: 86%;
     flex-direction: column;
     align-items: flex-start;
@@ -1461,15 +1461,15 @@ a {
     margin-left: 30px;
   }
 
-  .veta{
+  .sentence{
     font-size: 21px;
   }
 
-  .o-mne-p, .podpis{
+  .about-me-p, .sign{
     font-size: 14px;
   }
 
-  .o-mne-foto{
+  .about-me-photo{
     display: none;
   }
 
@@ -1495,37 +1495,37 @@ a {
     font-size: 14px;
   }
 
-  .sluzby{
+  .services{
     width: 93%;
     margin-left: 30px;
     margin-bottom: 20px;
     left: 0px;
   }
 
-  .sluzby h2 br{
+  .services h2 br{
     display: none;
   }
 
-  .sluzby h2{
+  .services h2{
     font-size: 21px;
   }
 
-  .p-popis{
+  .p-desc{
     font-size: 14px;
   }
 
-  .p-popis br{
+  .p-desc br{
     display: none;
   }
 
-  .akordeon{
+  .accordion{
     width: 93%;
     margin-left: 30px;
     margin-top: 50px;
     right: 0px;
   }
 
-  .konzultace-container{
+  .consultation-container{
     width: 93%;
     margin-top: 50px;
     margin-left: 15px;
@@ -1546,7 +1546,7 @@ a {
   padding-left: 0px;
 }
 
-.ul-popis{
+.ul-desc{
   width: 93%;
   font-size: 14px;
 }
@@ -1559,7 +1559,7 @@ a {
   font-size: 14px;
   }
 
-  .zkusenosti h2{
+  .experience h2{
     font-size: 14px;
   }
 
@@ -1568,12 +1568,12 @@ a {
     margin-left: 30px;
   }
 
-  .zkusenosti-container{
+  .experience-container{
     display: grid;
     grid-template-columns: repeat(1, minmax(200px, 1fr));
   }
 
-  .zkusenosti-box{
+  .experience-box{
     width: 99%;
   }
 
@@ -1590,24 +1590,24 @@ a {
     margin-top: 20px;
   }
 
-  .kontakt-p{
+  .contact-p{
     font-size: 14px;
   }
 
-  .kontakt-info h2{
+  .contact-info h2{
     font-size: 21px;
   }
 
-  .fotka-main{
+  .photo-main{
     width: 105px;
     height: 140px;
   }
 
-  .kontakt {
+  .contact {
     padding: 20px;
   }
 
-  .kontakt-header {
+  .contact-header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1616,20 +1616,20 @@ a {
     margin-bottom: 24px;
   }
 
-  .kontakt-p {
+  .contact-p {
     font-size: 14px;
     margin: 0;
   }
 
-  .online-kontakt {
+  .online-contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-  .kontakt-email,
-  .kontakt-telefon,
+  .contact-email,
+  .contact-telefon,
   .datovka,
   .cdp,
   .ico {
@@ -1639,19 +1639,19 @@ a {
     margin-right: 100px;
   }
 
-  .email-ikona,
-  .tel-ikona,
-  .datovka-ikona,
-  .cdp-ikona,
-  .ico-ikona {
+  .email-icon,
+  .tel-icon,
+  .datovka-icon,
+  .cdp-icon,
+  .ico-icon {
     position: static !important;
   }
 
-  .nadpisy {
+  .headlines {
     font-size: 14px;
   }
 
-  .udaje {
+  .data {
     font-size: 14px;
   }
 
@@ -1669,13 +1669,13 @@ a {
   font-size: 16px
 }
   
-  .table-line-kontakt{
+  .table-line-contact{
     width: 93%;
     transform: translateX(0px);
     margin-left: 30px;
   }
 
-  .kontakt-form-wrapper{
+  .contact-form-wrapper{
     width: 90%;
     margin-left: 30px;
   }
@@ -1784,7 +1784,7 @@ a {
     margin-bottom: 10px;
   }
 
-  .o-mne-text{
+  .about-me-text{
     width: 88%;
   }
 
@@ -1800,15 +1800,15 @@ a {
     width: 100%;
   }
 
-  .sluzby{
+  .services{
     width: 88%;
   }
 
-  .p-popis{
+  .p-desc{
     width: 88%;
   }
 
-  .akordeon{
+  .accordion{
     width: 88%;
   }
 
@@ -1816,17 +1816,17 @@ a {
     padding-left: 0px;
   }
 
-  .ul-popis{
+  .ul-desc{
     width: 88%;
     font-size: 14px;
   }
 
-  .konzultace-container{
+  .consultation-container{
     width: 88%;
     min-height: 70vh;
   }
 
-  .konzultace img{
+  .consultation img{
     width: 385px;
     height: 190px;
   }
@@ -1858,7 +1858,7 @@ a {
     width: 88%;
   }
 
-  .zkusenosti-box{
+  .experience-box{
     width: 90%;
   }
 
@@ -1866,16 +1866,16 @@ a {
     width: 88%;
   }
 
-  .fotka-main{
+  .photo-main{
     transform: translateX(-30px);
   }
 
-  .table-line-kontakt{
+  .table-line-contact{
     width: 88%;
     transform: translateX(-5px);
   }
 
-  .kontakt-form-wrapper{
+  .contact-form-wrapper{
     width: 88%;
     padding-top: 0px;
   }
@@ -1910,15 +1910,15 @@ a {
     width: 88%;
   }
 
-  .kontakt-container{
+  .contact-container{
     width: 66%;
   }
 
-  .kontakt-form-wrapper{
+  .contact-form-wrapper{
     width: 80%;
   }
 
-  .certifikace{
+  .certification{
     gap: 15px;
   }
 
@@ -1964,11 +1964,11 @@ a {
     width: 93%;
   }
 
-  .zkusenosti-box{
+  .experience-box{
     width: 92%;
   }
 
-  .konzultace img{
+  .consultation img{
     width: 335px;
     height: 190px;
   }
@@ -1981,11 +1981,11 @@ a {
     font-size: 14px;
   }
 
-  .kontakt-info{
+  .contact-info{
     width: 70%;
   }
 
-  .online-kontakt{
+  .online-contact{
     width: 70%;
   }
 
@@ -2006,11 +2006,11 @@ a {
     width: 90%;
   }
 
-  .kontakt-container{
+  .contact-container{
     width: 65%;
   }
 
-  .kontakt-form-wrapper{
+  .contact-form-wrapper{
     width: 75%;
   }
 
@@ -2047,7 +2047,7 @@ a {
     margin-left: 25px;
   }
 
-  .konzultace img{
+  .consultation img{
     width: 280px;
     height: 190px;
   }
@@ -2064,19 +2064,19 @@ a {
     width: 100%;
   }
 
-  .kontakt-info{
+  .contact-info{
     width: 55%;
   }
 
-  .online-kontakt{
+  .online-contact{
     width: 50%;
   }
 
-  .kontakt-container{
+  .contact-container{
     width: 64%;
   }
 
-  .kontakt-form-wrapper{
+  .contact-form-wrapper{
     width: 60%;
   }
 

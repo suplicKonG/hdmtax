@@ -19,7 +19,7 @@ import { useEffect, useState } from 'react';
 import Odometer from 'react-odometerjs';
 import 'odometer/themes/odometer-theme-default.css';
 
-function Thirdstage(){
+function Reference(){
 
   const [yearsState, setYearsState] = useState(0);
   const [yearsPrivate, setYearsPrivate] = useState(0);
@@ -36,8 +36,8 @@ function Thirdstage(){
 
     return(
         <>
-        <div className="konzultace-container">
-        <div className="konzultace">
+        <div className="consultation-container">
+        <div className="consultation">
             <img src={prof} />
             <div className="text">
             <p>Pomohu vám s daněmi, <br />
@@ -59,29 +59,29 @@ function Thirdstage(){
 
         <p className="txt">Každému klientovi věnuji individuální péči, abych našel řešení,<br /> které nejlépe odpovídá jeho potřebám.</p>
 
-<div className="zkusenosti">
+<div className="experience">
     <h2>Zkušenosti ze státní i soukromé sféry</h2>
 </div>
-<div className="zkusenosti-container">
-     {/* 5 let praxe */}
-    <div className="zkusenosti-box">
-            <p className="roky">
+<div className="experience-container">
+     
+    <div className="experience-box">
+            <p className="years">
               <Odometer value={yearsState} format="d" duration={2000} /> let praxe
             </p>
             <p className="description">ve státní správě</p>
         </div> 
     
 
-     {/* 20 let praxe */}
-    <div className="zkusenosti-box">
-            <p className="roky">
+     
+    <div className="experience-box">
+            <p className="years">
               <Odometer value={yearsPrivate} format="d" duration={2000} /> let praxe
             </p>
             <p className="description">v soukromé sféře</p>
         </div>
 
-         {/* Logo + certifikace */}
-        <div className="zkusenosti-box certifikace">
+         
+        <div className="experience-box certification">
             <img className="komora-img" src={komora} alt="Komora daňových poradců ČR" />
             <p className="komora-p">Jsem certifikovaným členem<br /> 
             Komory daňových poradců ČR.</p>
@@ -130,4 +130,4 @@ function Thirdstage(){
 );
 }
 
-export default Thirdstage
+export default Reference

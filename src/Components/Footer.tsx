@@ -27,7 +27,7 @@ function Footer(){
             </div>
 
             <div className="icon">
-            <a href="https://skuplik.com/" target="_blank"><img src={icon}  /></a>
+            <a href="https://skuplik.com/" target="_blank"><img src={icon} alt="Roman Skuplík logo" /></a>
             </div>
         </footer>
     )

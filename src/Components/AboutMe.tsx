@@ -3,7 +3,7 @@ import foto from './assets/grafika.png'
 import rectangle from './assets/Rectangle.svg'
 // import quote from './assets/“.svg'
 
-function Stagetwo(){
+function AboutMe(){
     return(
         <>
         <div id="about" className="quote">
@@ -11,20 +11,20 @@ function Stagetwo(){
         </div>
         
           
-        <div className="o-mne">
-                <img src={foto} alt="Fotka" className="o-mne-foto" />
+        <div className="about-me">
+                <img src={foto} alt="Fotka" className="about-me-photo" />
 
-            <div className="o-mne-text">
-                <p className="o-mne-veta">O MNĚ</p>
+            <div className="about-me-text">
+                <p className="about-me-sentence">O MNĚ</p>
 
-                <p className="veta">Váš osobní poradce<br /> v oblasti daní a účetnictví</p>
+                <p className="sentence">Váš osobní poradce<br /> v oblasti daní a účetnictví</p>
 
                 <img src={rectangle} />
                 
-                <p className="o-mne-p">„Jsem daňový poradce s dlouholetými zkušenostmi. Svým klientům pomáhám mít daně v pořádku, zbavuji je starostí a přebírám odpovědnost za správné vyplnění daňových přiznání. Ke každému klientovi přistupuji individuálně, s důrazem na detail a zodpovědnost.</p>
-                <p className="o-mne-p">Spolupráce se mnou znamená nejen odborné poradenství, ale i osobní přístup a důvěru.“</p>
+                <p className="about-me-p">„Jsem daňový poradce s dlouholetými zkušenostmi. Svým klientům pomáhám mít daně v pořádku, zbavuji je starostí a přebírám odpovědnost za správné vyplnění daňových přiznání. Ke každému klientovi přistupuji individuálně, s důrazem na detail a zodpovědnost.</p>
+                <p className="about-me-p">Spolupráce se mnou znamená nejen odborné poradenství, ale i osobní přístup a důvěru.“</p>
 
-                <div className="podpis">
+                <div className="sign">
                     <p>Ing. Martin Hrubý</p>
                 </div>
             </div> 
@@ -56,5 +56,5 @@ function Stagetwo(){
     )
 }
 
-export default Stagetwo
+export default AboutMe
 

@@ -1,11 +1,11 @@
 import './index.css'
 import Header from './Header'
 import Uvod from './Uvod'
-import Stagetwo from './Stagetwo'
-import Sluzby from './Sluzby'
-import Thirdstage from './Thirdstage'
-import Kontakt from './Kontakt'
-import KontaktForm from './Kontakt-form'
+import AboutMe from './AboutMe'
+import Services from './Services'
+import Reference from './Reference'
+import Contact from './Contact'
+import ContactForm from './Contact-form'
 import Footer from './Footer'
 
 function App() {
@@ -13,18 +13,18 @@ function App() {
 
   return (
     <>
-    <div className="wrapper">
+<div className="wrapper">
       <Header />
+
       <div className="web">
-      
-      <Uvod />
-      <Stagetwo />
+          <Uvod />
+          <AboutMe />
       </div>
       
-      <Sluzby />
-      <Thirdstage />
-      <Kontakt />
-      <KontaktForm />
+      <Services />
+      <Reference />
+      <Contact />
+      <ContactForm />
       <Footer />
     </div>
       

@@ -1,6 +1,6 @@
 import { useState} from "react";
 
-function KontaktForm() {
+function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -23,8 +23,8 @@ function KontaktForm() {
   };
 
   return (
-    <div className="kontakt-form-wrapper">
-      <div className="form-container" id="kontakt-form">
+    <div className="contact-form-wrapper">
+      <div className="form-container" id="contact-form">
         <h2>Potřebujete poradit s daněmi?<br /> Jsem tu pro vás.</h2>
         <p className="form-text">Napište mi a domluvíme si konzultaci.</p>
 
@@ -91,4 +91,4 @@ function KontaktForm() {
 }
 
 
-export default KontaktForm;
+export default ContactForm;
