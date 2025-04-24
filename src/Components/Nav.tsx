@@ -11,16 +11,17 @@ const Nav: React.FC<NavProps> = ({ isFooter = false, className = "" }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
-
+    document.body.style.overflow = isOpen ? "hidden" : "";
     return () => {
       document.body.style.overflow = "";
     };
   }, [isOpen]);
+
+  const handleScrollTop = (e: React.MouseEvent) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    setIsOpen(false);
+  };
 
   return (
     <nav className={`nav ${className}`}>
@@ -32,12 +33,22 @@ const Nav: React.FC<NavProps> = ({ isFooter = false, className = "" }) => {
         </div>
       )}
 
-      <ul className={isFooter ? "menu footer-menu" : isOpen ? "menu open" : "menu"}>
-        <li><a href="#home" onClick={() => setIsOpen(false)}>DOMŮ</a></li>
-        <li><a href="#about" onClick={() => setIsOpen(false)}>O MNĚ</a></li>
-        <li><a href="#services" onClick={() => setIsOpen(false)}>SLUŽBY</a></li>
-        <li><a href="#reference" onClick={() => setIsOpen(false)}>REFERENCE</a></li>
-        <li><a href="#contact" onClick={() => setIsOpen(false)}>KONTAKT</a></li>
+<ul className={`menu ${isFooter ? "footer-menu" : ""} ${isOpen ? "open" : ""}`}>
+        <li>
+          <a href="#" onClick={handleScrollTop}>DOMŮ</a>
+        </li>
+        <li>
+          <a href="#about" onClick={() => setIsOpen(false)}>O MNĚ</a>
+        </li>
+        <li>
+          <a href="#services" onClick={() => setIsOpen(false)}>SLUŽBY</a>
+        </li>
+        <li>
+          <a href="#reference" onClick={() => setIsOpen(false)}>REFERENCE</a>
+        </li>
+        <li>
+          <a href="#contact" onClick={() => setIsOpen(false)}>KONTAKT</a>
+        </li>
       </ul>
     </nav>
   );

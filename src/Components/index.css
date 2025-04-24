@@ -4,6 +4,8 @@
 
 html{
   scroll-behavior: smooth;
+  position: relative;
+  overflow-x: hidden;
 }
 
 body{
@@ -43,7 +45,6 @@ h1, h2, h3{
   opacity: 0;
   transform: translateY(50px);
   animation: slideUp 0.6s ease-out forwards;
-  overflow-x: hidden;
 }
 
 @keyframes slideUp {
