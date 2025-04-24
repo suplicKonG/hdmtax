@@ -35,9 +35,9 @@ const Nav: React.FC<NavProps> = ({ isFooter = false, className = "" }) => {
       <ul className={isFooter ? "menu footer-menu" : isOpen ? "menu open" : "menu"}>
         <li><a href="#home" onClick={() => setIsOpen(false)}>DOMŮ</a></li>
         <li><a href="#about" onClick={() => setIsOpen(false)}>O MNĚ</a></li>
-        <li><a href="#sluzby" onClick={() => setIsOpen(false)}>SLUŽBY</a></li>
+        <li><a href="#services" onClick={() => setIsOpen(false)}>SLUŽBY</a></li>
         <li><a href="#reference" onClick={() => setIsOpen(false)}>REFERENCE</a></li>
-        <li><a href="#kontakt" onClick={() => setIsOpen(false)}>KONTAKT</a></li>
+        <li><a href="#contact" onClick={() => setIsOpen(false)}>KONTAKT</a></li>
       </ul>
     </nav>
   );

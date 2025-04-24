@@ -44,7 +44,7 @@ function Reference(){
                abyste se mohli soustředit <br />
               na to, co děláte nejlépe.</p>
 
-              <a href="#kontakt-form" className="button">Domluvme si konzultaci</a>
+              <a href="#contact-form" className="button">Domluvme si konzultaci</a>
             </div>
         </div>
     </div>

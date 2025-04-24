@@ -1,14 +1,9 @@
-/* *{
-  outline: 1px dashed limegreen;
-}  */
-
 #root{
   width: 100%;
 }
 
 html{
   scroll-behavior: smooth;
-  
 }
 
 body{
@@ -48,6 +43,7 @@ h1, h2, h3{
   opacity: 0;
   transform: translateY(50px);
   animation: slideUp 0.6s ease-out forwards;
+  overflow-x: hidden;
 }
 
 @keyframes slideUp {
@@ -76,13 +72,29 @@ h1, h2, h3{
 }
 
 .menu li a{
+  position: relative;
   text-decoration: none;
   color: inherit;
   transition: color 0.3s ease;
 }
 
+.menu li a::after{
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #3ABB6A;
+  transition: width 0.3s ease-in-out;
+}
+
 .menu li a:hover{
-  color: #3ABB6A;
+  color: #0F3A30;
+}
+
+.menu li a:hover::after{
+  width: 100%;
 }
 
 .hamburger{
@@ -116,6 +128,7 @@ h1, h2, h3{
   top: 0;
   z-index: 1000;
   backdrop-filter: blur(5px);
+  height: 40px;
 }
 
 .header-container{
