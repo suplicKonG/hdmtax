@@ -738,10 +738,10 @@ pointer-events: none;
 
 .logo-track{
   display: flex;
-  gap: 80px;
+  gap: 50px;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  width: max-content;
+  /* width: max-content; */
   margin-bottom: 30px;
 }
 
@@ -1769,12 +1769,6 @@ a {
 }
 
 @media (max-width: 425px){
-
-  html{
-    overflow-x: hidden;
-    position: relative;
-  }
-
   .container{
     position: sticky;
   }
