@@ -1770,6 +1770,11 @@ a {
 
 @media (max-width: 425px){
 
+  html{
+    overflow-x: hidden;
+    position: relative;
+  }
+
   .container{
     position: sticky;
   }
