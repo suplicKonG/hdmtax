@@ -15,12 +15,10 @@ function App() {
     <>
 <div className="wrapper">
       <Header />
-
       <div className="web">
           <Introduction />
           <AboutMe />
       </div>
-      
       <Services />
       <Reference />
       <Contact />
