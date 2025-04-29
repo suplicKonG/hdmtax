@@ -959,6 +959,18 @@ label{
   font-family: "Poppins", sans-serif;
 }
 
+/* input, textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #0F3A30;
+  outline: none;
+  background: transparent;
+
+  font-family: "Poppins", sans-serif;
+} */
+
 input:focus, textarea:focus{
   border-color: #34d399;
   outline: none;
@@ -1953,34 +1965,15 @@ a {
     left: 0;
     background: linear-gradient(to right, white, transparent);
   }
-
+  
   .logo-wrapper::after {
     right: 0;
     background: linear-gradient(to left, white, transparent);
   }
 
-
+  
   .hamburger .bar:nth-child(2) {
     background-color: #3ABB6A;
-  }
-
-  .hamburger {
-    display: flex;
-  }
-
-  .menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    flex-direction: column;
-    background-color: #fff;
-    padding: 1rem 2rem;
-    display: none;
-  }
-
-  .menu.open {
-    display: flex;
   }
 }
 
@@ -2131,6 +2124,4 @@ a {
     right: 0;
     background: linear-gradient(to left, white, transparent);
   }
-  
 }
-
