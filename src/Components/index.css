@@ -1936,12 +1936,11 @@ a {
     background: linear-gradient(to left, white, transparent);
   }
 
-  
   .hamburger .bar:nth-child(2) {
     background-color: #3ABB6A;
   }
 
-  /* .hamburger {
+  .hamburger {
     display: flex;
     z-index: 1100;
   }
@@ -1949,19 +1948,21 @@ a {
   .menu {
     position: fixed;
     top: 0;
+    left: 0;
     flex-direction: column;
     background-color: white;
-    width: 93%;
+    width: 88%;
     height: 100vh;
     padding: 100px 20px;
     transform: translateX(-100%);
     opacity: 0;
     pointer-events: none;
     transition: transform 0.3s ease, opacity 0.3s ease;
+    overflow-x: hidden;
   }
 
   .menu.open {
-    transform: translateX(-42%);
+    transform: translateX(0);
     opacity: 1;
     pointer-events: auto;
     font-size: 20px;
@@ -1989,7 +1990,7 @@ a {
 
   .bar.open:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
-  } */
+  }
 }
 
 @media (max-width: 375px){
