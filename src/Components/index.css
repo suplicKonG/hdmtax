@@ -1980,7 +1980,7 @@ a {
     z-index: 1;
   }
 
-  .bar{
+  /* .bar{
     margin: 2.9px 0;
   }
 
@@ -1990,7 +1990,7 @@ a {
 
   .bar.open:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
-  }
+  } */
 }
 
 @media (max-width: 375px){
