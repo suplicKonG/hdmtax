@@ -54,7 +54,4 @@ const Nav: React.FC<NavProps> = ({ isFooter = false, className = "" }) => {
   );
 };
 
-
-
-
 export default Nav
