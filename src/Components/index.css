@@ -1941,7 +1941,7 @@ a {
     background-color: #3ABB6A;
   }
 
-  .hamburger {
+  /* .hamburger {
     display: flex;
     z-index: 1100;
   }
@@ -1989,7 +1989,7 @@ a {
 
   .bar.open:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
-  }
+  } */
 }
 
 @media (max-width: 375px){
