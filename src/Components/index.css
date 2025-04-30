@@ -1,3 +1,8 @@
+/* *{
+  outline: 1px dotted red;
+} */
+
+
 #root{
   width: 100%;
 }
@@ -280,8 +285,8 @@ li:last-child {
   }
 
   .table-line-contact{
-    transform: translateX(150px);
-    width: 65%;
+    transform: translateX(100px);
+    width: 40%;
     color: #969696;
     border-top: 1px solid #969696;
     opacity: 53%;
@@ -752,7 +757,7 @@ pointer-events: none;
 }
 
  .contact{
-  width: 84%;
+  width: 70%;
   margin: 0 auto;
   position: relative;
   display: flex;
@@ -791,13 +796,13 @@ pointer-events: none;
  }
 
  .contact-container{
-  width: 45%;
+  width: 40%;
   margin-top: 50px;
  }
 
  .contact-info {
   position: absolute;
-  left: 28%;
+  left: 32%;
   top: 9%;
 }
 
@@ -817,7 +822,7 @@ pointer-events: none;
 .cdp-icon,
 .ico-icon{
   position: absolute;
-  right: 43%;
+  right: 37%;
 }
 
 .email-info,
@@ -876,7 +881,7 @@ pointer-events: none;
 }
 
 .form-container {
-  width: 800px;
+  width: 500px;
   text-align: left;
   color: #0F3A30;
 }
@@ -958,18 +963,6 @@ label{
   color: black;
   font-family: "Poppins", sans-serif;
 }
-
-/* input, textarea{
-  width: 100%;
-  padding: 5px 0;
-  font-size: 16px;
-  border: none;
-  border-bottom: 1px solid #0F3A30;
-  outline: none;
-  background: transparent;
-
-  font-family: "Poppins", sans-serif;
-} */
 
 input:focus, textarea:focus{
   border-color: #34d399;
@@ -1888,6 +1881,10 @@ a {
     max-width: 80px;
     margin-right: 16px;
     flex-shrink: 0;
+  }
+
+  .logo-container{
+    width: 95%;
   }
 
   .photo-main{
