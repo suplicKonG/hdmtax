@@ -1980,10 +1980,10 @@ a {
     left: 0;
     flex-direction: column;
     background-color: white;
-    width: 88%;
+    width: 98%;
     height: 100vh;
     padding: 100px 20px;
-    transform: translateX(-100%);
+    transform: translateX(-5%);
     opacity: 0;
     pointer-events: none;
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -1991,7 +1991,7 @@ a {
   }
 
   .menu.open {
-    transform: translateX(0);
+    transform: translateX(10);
     opacity: 1;
     pointer-events: auto;
     font-size: 20px;
